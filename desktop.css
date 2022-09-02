@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f5f9;
+    color:#000839;
+}
+
+#container {
+    width: 60%;
+    height: auto;
+    margin: 0 21%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2rem;
+    animation-name: fadeInBottom;
+    animation-duration: 2s;
+}
+
+.cssanimation span {
+    display: inline-block;
+}
+
+.fadeInBottom {
+    animation-name: fadeInBottom
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#sideIcon{
+    display: none;
+    color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+/*---------------------------sign-up-section---------------------------------*/
+
+.signUp {
+    padding: 3rem 11%;
+    height: 37rem;
+    background-color: #202040;
+    margin-bottom: 20rem;
+}
+
+
+
+.section1 {
+    width: 80%;
+    margin: 0 11%;
+    font-family: 'Montserrat', sans-serif;
+    animation-name: fadeInBottom;
+    animation-duration: 2s;
+}
+
+#corner {
+    position: absolute;
+    width: calc(100% + 1rem);
+    height: 23.5rem;
+    bottom: 10rem;
+    left: 0px;
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+#man {
+    width: 28rem;
+    height: 27rem;
+    z-index: 1;
+}
+
+.menuBar {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.menuItems {
+    display: flex;
+    justify-content: center;
+    margin-right: 30rem;
+}
+
+#home {
+    color: rgb(248, 95, 95);
+}
+
+.easy {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.item {
+    margin-left: 2rem;
+
+}
+
+.templates {
+    text-align: center;
+    padding: 10px 10px 3px 10px;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 30px;
+    border: 1px solid silver;
+}
+
+.templates a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.templates:hover {
+    background-color: rgb(248, 95, 95);
+    cursor: pointer;
+    border: 1px solid rgb(248, 95, 95);
+}
+
+.templates a:hover {
+    color: white;
+}
+
+.templates a:visited {
+    color: white;
+}
+
+.menuBar a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#drop:hover,
+#inner:hover,
+#contact:hover {
+    color: rgb(248, 95, 95);
+}
+
+
+.dropbtn {
+    color: white;
+    font-family: 'Montserrat';
+    margin-left: 1.5rem;
+    font-size: 16px;
+    background-color:#202040 ;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    width: 10rem;
+    margin-left: 1.5rem;
+    padding: 20px;
+    background-color: rgb(248, 95, 95);
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+.menuBar a:visited {
+    color: white;
+    background-color: transparent;
+}
+
+
+.signUpFlex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.signUpField {
+    color: white;
+    margin-top: 5rem;
+    width: 25rem;
+    line-height: 1.8;
+    height: auto;
+}
+
+
+h1 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 22px;
+    line-height: 3rem;
+}
+
+#info {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+#inputDiv {
+    position: relative;
+    background-origin: content-box;
+}
+
+#inputDiv a {
+    color: white;
+    text-decoration: none;
+}
+
+#inputDiv a:hover {
+    background-color: rgb(248, 95, 95);
+}
+
+#inputDiv a:active {
+    background-color: #007bff;
+}
+
+input {
+    width: 25rem;
+    height: 5rem;
+    border-radius: 10px;
+    border: none;
+    padding-left: 1rem;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}
+
+.inputButton {
+    text-align: center;
+    width: 6rem;
+    height: auto;
+    padding: 15px 10px 15px 10px;
+    border-radius: 7px;
+    position: absolute;
+    margin-top: 8px;
+    background-color: #ff6363;
+    right: 10px;
+    top: 2px;
+    z-index: 1;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsors img {
+    margin-top: 10rem;
+    width: 16rem;
+    height: 10rem;
+}
+
+/*--------------------------Features-section------------------------------------------*/
+
+.featuresTitle,
+.blogsTitle {
+    text-align: center;
+    margin-top: 20rem;
+}
+
+h5 {
+    color: rgb(248, 95, 95);
+}
+
+h2 {
+    margin: 8px 0;
+    font-size: 28px;
+}
+
+.priceFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceFlex div {
+    font-size: 10px;
+    background: rgb(255, 99, 99);
+    padding: 4px 10px;
+    font-weight: 700;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.toggle {
+    width: 50px;
+    border-radius: 30px;
+    height: 30px;
+    background-color: rgb(255, 99, 99);
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.toggle:hover {
+    cursor: pointer;
+}
+
+.toggle::before {
+    transition: all 0.3s ease 0s;
+    content: "";
+    position: absolute;
+    left: 1px;
+    height: 28px;
+    width: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 10px 0px;
+}
+
+
+.featureFlex {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imgItem {
+    width: 7rem;
+    height: 5rem;
+    background-color: white;
+    border-radius: 35%;
+    padding: 1rem 0rem;
+    margin-left: 24px;
+    margin-bottom: 1rem;
+}
+
+.feauteItem {
+    width: 21rem;
+    margin-bottom: 5rem;
+}
+
+.featureFlex img {
+    width: 7rem;
+    height: 4rem;
+    margin-top: 0.5rem;
+}
+
+h4 {
+    margin: 1rem 0;
+}
+
+/*----------------------------reviews-section------------------------------------------------*/
+
+.reviewFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.review {
+    width: 40rem;
+    height: 20rem;
+    background-color: white;
+    box-shadow: 5px 10px 10px 5px rgb(233, 229, 229)
+}
+
+.pic{
+    display: flex;
+    justify-content: left;
+    margin: 2rem;
+}
+
+.pic img{
+    max-width: 5rem;
+    max-height: 5rem;
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.says{
+    margin: 2rem;
+    font-weight: bold;
+}
+
+.picInfo{
+    display: block;
+}
+
+
+.review .buttons{
+    margin-left: 2rem;
+    display: flex;
+}
+
+.buttons div{
+    padding: 5px  0.5rem;
+    border:1px solid rgb(226, 225, 225);
+}
+
+.buttons>div{
+    margin-right: 1rem;
+}
+
+.buttons div:hover{
+    cursor: pointer;
+}
+
+#review2,#review3{
+    display: none;
+}
+
+.reviewInfo {
+    width: 22rem;
+    line-height: 1.7rem;
+}
+
+.info {
+    margin-top: 5rem;
+    width: 22rem;
+    line-height: 1.7rem;
+}
+
+.info h2 {
+    margin-bottom: 2rem;
+}
+
+.info p,
+.reviewInfo p {
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.reviewFlex img {
+    width: 40rem;
+    height: 30rem;
+}
+
+.reviews #link {
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 6px;
+    background-color: rgb(248, 95, 95);
+    width: 8rem;
+    height: 2rem;
+    border-radius: 30px;
+}
+
+.reviews #link a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.reviews #link:hover {
+    background-color: rgb(250, 127, 127);
+    cursor: pointer;
+}
+
+.reviews #link a:visited {
+    background-color: rgb(250, 127, 127);
+    color: white;
+}
+
+/*----------------------------------------cards-section---------------------------------------*/
+
+.cardFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    width: 20rem;
+    margin: 1.5rem 1.5rem 0rem 1.5rem;
+    padding: 3rem 0;
+}
+
+.cardFlex h2 {
+    color: rgb(250, 127, 127);
+}
+
+.yearly {
+    display: none;
+}
+
+.cardInfo {
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
+hr {
+    width: 15rem;
+    margin-left: 10%;
+}
+
+#card2 {
+    background-color: white;
+}
+
+.cardFlex #link {
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 6px;
+    background-color: rgb(248, 95, 95);
+    width: 8rem;
+    height: 2rem;
+    border-radius: 30px;
+    margin-left: 27%;
+}
+
+.cardFlex #link a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.cardFlex #link:hover {
+    background-color: rgb(250, 127, 127);
+    cursor: pointer;
+}
+
+.cardFlex #link a:visited {
+    background-color: rgb(250, 127, 127);
+    color: white;
+}
+
+/*-------------------------------blog-section-----------------------------------------------*/
+
+.blogsTitle {
+    padding-top: 4rem;
+}
+
+.blogsFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog {
+    width: 15rem;
+    height: 35rem;
+    margin: 3rem 1rem 8rem 1rem;
+    background-color: white;
+}
+
+.readFlex {
+    display: flex;
+    margin-left: 6rem;
+}
+
+.more {
+    margin-top: 2rem;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.read {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border: 1px solid #efefef;
+    width: 1.5rem;
+    border-radius: 50%;
+}
+
+.blog img {
+    width: 15rem;
+    height: 15rem;
+    background-blend-mode: luminosity;
+    background-color: #000000;
+    background-position: center center;
+    transition: .3s all ease;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.blog img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.blog h6,
+h4,
+p {
+    margin: 0rem 1.5rem;
+}
+
+.blogs {
+    height: auto;
+    background-color: #ecf0f5;
+    margin: 1em -100%;
+    margin: 1em calc(50% - 50vw);
+}
+
+/*----------------------------------footer----------------------------------------*/
+
+.footerFlex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.footerLeft {
+    width: 27rem;
+}
+
+.footerRightFlex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+ul {
+    margin-right: 7rem;
+}
+
+li {
+    list-style: none;
+}
+
+footer img {
+    background-color: white;
+    margin: 0.3rem 1rem;
+}
+
+#copyright {
+    margin: 7rem 0 2rem 0;
+    text-align: center;
+}

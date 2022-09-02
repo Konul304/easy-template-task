@@ -1,0 +1,14 @@
+@media only screen and (max-width: 751px) {
+    #home,#inner,#drop,#contact,.templates{
+        display: none;
+    }
+    #sideIcon{
+        display: block;
+    }   
+
+    .sponsors img {
+        margin-top: 10rem;
+        width: 10rem;
+        height: 6rem;
+    }
+}
