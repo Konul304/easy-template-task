@@ -103,7 +103,8 @@ body {
     width: calc(100% + 1rem);
     height: 23.5rem;
     bottom: 10rem;
-    left: 0px;
+    left: 0;
+    top: 39.1%;
     background-size: cover;
     background-position: left top;
     background-repeat: no-repeat;
@@ -326,47 +327,6 @@ h2 {
     font-size: 28px;
 }
 
-.priceFlex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.priceFlex div {
-    font-size: 10px;
-    background: rgb(255, 99, 99);
-    padding: 4px 10px;
-    font-weight: 700;
-    border-radius: 30px;
-    color: rgb(255, 255, 255);
-}
-
-.toggle {
-    width: 50px;
-    border-radius: 30px;
-    height: 30px;
-    background-color: rgb(255, 99, 99);
-    position: relative;
-    transition: all 0.3s ease 0s;
-}
-
-.toggle:hover {
-    cursor: pointer;
-}
-
-.toggle::before {
-    transition: all 0.3s ease 0s;
-    content: "";
-    position: absolute;
-    left: 1px;
-    height: 28px;
-    width: 28px;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    background: rgb(255, 255, 255);
-    box-shadow: rgb(0 0 0 / 10%) 0px 5px 10px 0px;
-}
 
 
 .featureFlex {
@@ -403,10 +363,12 @@ h4 {
 
 /*----------------------------reviews-section------------------------------------------------*/
 
-.reviewFlex {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    
+    
+    .reviewFlex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     margin-top: 3rem;
 }
 
@@ -461,7 +423,7 @@ h4 {
     cursor: pointer;
 }
 
-#review2,#review3{
+#rev2,#rev3{
     display: none;
 }
 
@@ -579,6 +541,47 @@ hr {
     color: white;
 }
 
+.priceFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceFlex div {
+    font-size: 10px;
+    background: rgb(255, 99, 99);
+    padding: 4px 10px;
+    font-weight: 700;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.toggle {
+    width: 50px;
+    border-radius: 30px;
+    height: 30px;
+    background-color: rgb(255, 99, 99);
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.toggle:hover {
+    cursor: pointer;
+}
+
+.toggle::before {
+    transition: all 0.3s ease 0s;
+    content: "";
+    position: absolute;
+    left: 1px;
+    height: 28px;
+    width: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 10%) 0px 5px 10px 0px;
+}
 /*-------------------------------blog-section-----------------------------------------------*/
 
 .blogsTitle {
@@ -663,6 +666,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     padding: 2rem;
+}
+
+li:hover {
+    cursor: pointer;
 }
 
 ul {
