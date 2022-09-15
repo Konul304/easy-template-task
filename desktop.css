@@ -16,27 +16,7 @@ body {
     margin: 0 21%;
     font-family: 'Montserrat', sans-serif;
     line-height: 2rem;
-    animation-name: fadeInBottom;
     animation-duration: 2s;
-}
-
-.cssanimation span {
-    display: inline-block;
-}
-
-.fadeInBottom {
-    animation-name: fadeInBottom
-}
-
-@keyframes fadeInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-
-    to {
-        opacity: 1;
-    }
 }
 
 #sideIcon{
